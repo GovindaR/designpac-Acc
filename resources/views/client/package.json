@@ -1,0 +1,7 @@
+{
+    "Marketing": [{ "planID": "plan_DfVkvLx9Y2qcpL", "productID": "prod_DYOX2Rd9zuHzAA", "amount": 110000, "name": " Package Three " }, { "planID": "plan_DfVkGC5NiWbnnu", "productID": "prod_DYOX2Rd9zuHzAA", "amount": 90000, "name": " Package Two " }, { "planID": "plan_DfVjpmcrea3pWN", "productID": "prod_DYOX2Rd9zuHzAA", "amount": 70000, "name": " Package One " }],
+    "Development": [{ "planID": "plan_DfVnTSQY7jtehG", "productID": "prod_DfVnV1mjCRhpq2", "amount": 80000, "name": " Monthly Plan " }, { "planID": "plan_DfVnEvQlzMgjcK", "productID": "prod_DfVnKPTUg9vayh", "amount": 100000, "name": " Monthly Plan" }, { "planID": "plan_DfVmyEWJKAjHzn", "productID": "prod_DfVmIiuXxIcEIR", "amount": 130000, "name": " Monthly Plan " }, { "planID": "plan_DfVmLzB4e3fzAE", "productID": "prod_DfVmNCMn1ubMUh", "amount": 9900, "name": " Monthly Plan " }, { "planID": "plan_DfVlXFZwG22kHY", "productID": "prod_DfVl9KoQywa5Rs", "amount": 120000, "name": " Monthly Plan " }, { "planID": "plan_DfVlUjEhDyvULD", "productID": "prod_DfVlKqXGXO4rXa", "amount": 150000, "name": " Monthly Plan " }, { "planID": "plan_DfVl5kVuw8tvRk", "productID": "prod_DYOW1QQ8x2SkCK", "amount": 100000, "name": " Monthly Plan " }],
+    "Design": [{ "planID": "plan_DfVoJvIluRMDtX", "productID": "prod_DfVnVoyTkXkT2z", "amount": 150000, "name": " Semiannually Plan" },
+        { "planID": "plan_DfVo9byIAmI4pJ", "productID": "prod_DfVnVoyTkXkT2z", "amount": 30000, "name": " Monthly Plan" }
+    ]
+}

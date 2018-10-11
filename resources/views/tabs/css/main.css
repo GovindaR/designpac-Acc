@@ -1,0 +1,1210 @@
+    /*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
+    /*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+    /* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+    
+    html {
+        color: #222;
+        font-size: 1em;
+        line-height: 1.4;
+    }
+    /*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+    
+     ::-moz-selection {
+        background: #b3d4fc;
+        text-shadow: none;
+    }
+    
+     ::selection {
+        background: #b3d4fc;
+        text-shadow: none;
+    }
+    /*
+ * A better looking default horizontal rule
+ */
+    
+    hr {
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 1px solid #ccc;
+        margin: 1em 0;
+        padding: 0;
+    }
+    /*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+    
+    audio,
+    canvas,
+    iframe,
+    img,
+    svg,
+    video {
+        vertical-align: middle;
+    }
+    /*
+ * Remove default fieldset styles.
+ */
+    
+    fieldset {
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+    /*
+ * Allow only vertical resizing of textareas.
+ */
+    
+    textarea {
+        resize: vertical;
+    }
+    
+    body {
+        font-family: 'Heebo';
+    }
+    
+    ul,
+    li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .clearfix:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    /* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+    
+    .browserupgrade {
+        margin: 0.2em 0;
+        background: #ccc;
+        color: #000;
+        padding: 0.2em 0;
+    }
+    /* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+    
+    .tabs-purches {
+        display: block;
+        background: #e3ecf7;
+        padding: 30px 0;
+        height: 100vh;
+    }
+    
+    .tabs-top {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .tab-menu-bottom p {
+        color: #314361;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    
+    .tab-menu {
+        background: #0364f4;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding: 30px 20px;
+        color: #fff;
+        font-family: 'Rubik';
+        text-align: center;
+    }
+    
+    .tab-menu-bottom {
+        background: #fff;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 20px;
+    }
+    
+    .tab-menu ul li span {
+        float: right;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .tab-menu ul li p {
+        float: left;
+    }
+    
+    .tab-menu ul li:last-child {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .tab-menu,
+    .tab-table {
+        box-shadow: -1px 0px 8px 0px rgba(19, 98, 225, 0.18);
+    }
+    
+    .buy-button {
+        display: inline-block;
+        color: #fff;
+        background: #f47207;
+        padding: 10px 20px;
+        border-radius: 20px;
+        width: 200px;
+        box-sizing: border-box;
+    }
+    
+    .buy-button span {
+        margin-right: 5px;
+        text-align: left;
+    }
+    
+    .buy-button:hover,
+    .buy-button:focus {
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+    }
+    
+    .buy-button:hover i {
+        margin-left: 5px;
+    }
+    
+    .visa-img {
+        display: inline-block;
+        vertical-align: middle;
+        text-decoration: none;
+        width: 60px;
+    }
+    
+    .text-visa {
+        vertical-align: middle;
+        display: inline-block;
+        padding: 0 10px;
+    }
+    
+    .text-visa p {
+        margin: 0;
+        color: #314361;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .text-visa span {
+        color: #314361;
+    }
+    
+    .visa-img img {
+        display: block;
+        width: 100%;
+    }
+    
+    .edit-visa {
+        margin: 2% 0;
+        float: right;
+        border-radius: 50%;
+        padding: 3px 7px;
+    }
+    
+    .edit-visa img {
+        height: 20px;
+        width: 20px;
+    }
+    
+    .edit-visa i {
+        color: #fff;
+        font-size: 14px;
+    }
+    
+    .add-payment {
+        display: inline-block;
+        margin-top: 20px;
+        color: #314361;
+        text-decoration: none;
+        font-weight: 600;
+        transition: .5s;
+    }
+    
+    .add-payment span {
+        transition: all .5s;
+    }
+    
+    .add-payment:hover span {
+        color: #f47207;
+    }
+    
+    .add-payment i {
+        margin-right: 4px;
+        transition: .5s;
+        -webkit-transition: .5s;
+    }
+    
+    .add-payment:hover i {
+        transform: rotate(45deg);
+        color: #f47207;
+    }
+    
+    .add-payment:hover {
+        color: #314361;
+        text-decoration: none;
+    }
+    
+    .tab-table {
+        border-radius: 10px;
+        background: #fff;
+        padding: 30px 0;
+        height: 80vh;
+    }
+    
+    .header-table {
+        display: inline-block;
+        width: 100%;
+        padding: 0 20px 20px 20px;
+        font-weight: 500;
+    }
+    
+    .button-header button {
+        background-size: 0;
+        border: none;
+        font-size: 14px;
+        outline: none;
+        background: transparent;
+        padding: 10px 20px;
+        border-radius: 20px;
+        transition: all 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    
+    .button-header {
+        float: left;
+    }
+    
+    .search {
+        float: right;
+        margin-top: 10px;
+    }
+    
+    #search {
+        font-style: italic;
+        font-weight: 400;
+    }
+    
+    .table-package table {
+        width: 100%;
+        color: #314361;
+    }
+    
+    .table-package table th {
+        font-weight: 500;
+        text-transform: uppercase;
+        background: #f5f7fa;
+        padding: 10px 20px;
+    }
+    
+    .table-package table td {
+        padding: 10px 20px;
+    }
+    
+    .table-package table tr {
+        cursor: pointer;
+        padding: 0 10px;
+        border-top: 1px solid #dee2e8;
+        border-bottom: 1px solid #dee2e8;
+    }
+    
+    .table-package table tr:hover:not(:first-child) {
+        background: #e3ecf7;
+    }
+    
+    .dwonload-design {
+        border-radius: 50%;
+        padding: 2px 6px;
+    }
+    
+    .dwonload-design img {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .dwonload-design i {
+        font-size: 10px;
+        color: #fff;
+    }
+    
+    .dataTables_filter label {
+        color: #8c94a2;
+        font-weight: 500;
+        border-bottom: 1px solid #dadee4;
+    }
+    
+    .dataTables_filter label i {
+        margin-right: 3px;
+    }
+    
+    .dataTables_filter input[type="search"] {
+        border: none;
+        outline: none;
+        color: #8c94a2;
+        font-style: italic;
+    }
+    
+    .renew {
+        color: #125dcf;
+    }
+    
+    .cancel,
+    .refund {
+        color: #7e7e7e;
+        font-style: italic;
+    }
+    
+    .inactive {
+        font-style: italic;
+        color: red;
+    }
+    
+    .cancel-btn img {
+        width: 15px;
+        height: 15px;
+    }
+    
+    .cancel-btn {
+        width: 25px;
+        height: 25px;
+    }
+    
+    #table-package2 {
+        display: none;
+    }
+    
+    .button-header .active-package {
+        background: #f47207;
+        color: #fff;
+    }
+    
+    .dataTables_wrapper {
+        overflow: auto;
+    }
+    /* pulgin */
+    
+    .dataTables_info,
+    .dataTables_length,
+    .dataTables_paginate {
+        display: none;
+    }
+    
+    #example_filter,
+    #example1_filter {
+        position: absolute;
+        top: 36px;
+        right: 37px;
+    }
+    /* popup */
+    
+    .popup {
+        background: rgba(227, 236, 247, .9);
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+    .animated {
+        -webkit-animation-duration: .5s;
+        animation-duration: .5s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+    
+    @keyframes zoomIn {
+        from {
+            opacity: 0;
+            -webkit-transform: scale3d(0.3, 0.3, 0.3);
+            transform: scale3d(0.3, 0.3, 0.3);
+        }
+        50% {
+            opacity: 1;
+        }
+    }
+    
+    .zoomIn {
+        -webkit-animation-name: zoomIn;
+        animation-name: zoomIn;
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    @keyframes zoomOut {
+        from {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+            -webkit-transform: scale3d(0.3, 0.3, 0.3);
+            transform: scale3d(0.3, 0.3, 0.3);
+        }
+        to {
+            opacity: 0;
+        }
+    }
+    
+    .zoomOut {
+        -webkit-animation-name: zoomOut;
+        animation-name: zoomOut;
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+    .popup-content {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        height: 500px;
+        overflow: scroll;
+    }
+    
+    .popup-content h4 {
+        font-size: 16px;
+        color: #314361;
+        margin-bottom: 25px;
+    }
+    
+    .qty-item {
+        text-align: left;
+        background: #fff;
+        padding: 25px 25px 45px 25px;
+        border-radius: 5px;
+        box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.10), inset 0 -1px 0 rgba(0, 0, 0, 0.07);
+        width: 70%;
+        margin: auto;
+    }
+    
+    .qty-item label {
+        display: block;
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    
+    .qty-item input {
+        display: inline-block;
+        border: none;
+        outline: none;
+        border: 2px solid #d7d7d7;
+        border-radius: 5px;
+        padding: 10px;
+        width: 30%;
+        color: #5a5a5a;
+    }
+    
+    .popup-content .bottom-popup h4 {
+        margin-top: 25px;
+        display: inline-block;
+    }
+    
+    .popup-content .bottom-popup .qty-item input,
+    .email textarea {
+        background: #ebebeb;
+        border: none;
+    }
+    
+    .email input.btn {
+        width: 100%;
+        background: #b45900 !important;
+        color: #fff;
+        font-size: 18px;
+        font-family: 'bahn';
+        border-radius: 0;
+        transition: all .5s;
+        padding: 6px 12px;
+    }
+    
+    .credit-card {
+        float: left;
+        font-size: 20px;
+        padding: 10px 0;
+        color: #314361;
+    }
+    
+    .b3-text-input-container input,
+    .card-holder input {
+        border: none;
+        box-shadow: none;
+        background: transparent;
+        font-size: 15px;
+        height: 31px;
+        margin: 12px 0 0;
+        cursor: text;
+        padding: 1px 0;
+        max-width: none;
+        width: 100%;
+        border-radius: 0;
+        border-bottom: 1px solid #d7d7d7;
+    }
+    
+    .times-card {
+        float: right;
+    }
+    
+    .qty-master {
+        width: 100%;
+        display: inline-block;
+        border-bottom: 1px solid #f1f1f1;
+    }
+    
+    .card-number {
+        width: 51%;
+        display: inline-block;
+    }
+    
+    .card-edit {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    .card-edit label {
+        display: inline-block;
+        vertical-align: top;
+        width: 40px;
+    }
+    
+    .card-edit label img {
+        display: block;
+        width: 100%;
+    }
+    
+    .card-edit .b3-text-input-container {
+        display: inline-block;
+        margin-left: 10px;
+        vertical-align: middle;
+    }
+    
+    .date-card {
+        display: inline-block;
+        vertical-align: bottom;
+        width: 29%;
+    }
+    
+    .card-edit+.date-card {
+        width: 60%;
+    }
+    
+    .cvc-data {
+        width: 18%;
+    }
+    
+    .card-edit~.cvc-data {
+        width: 39%;
+    }
+    
+    .card-number label,
+    .date-card label,
+    .cvc-card label,
+    .card-holder label,
+    .address-line1 label {
+        color: rgba(0, 0, 0, 0.54);
+        font-size: 12px;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    
+    .address-line1 label {
+        font-size: 13px;
+    }
+    
+    .month-card {
+        display: inline-block;
+        text-align: center;
+        width: 44%;
+    }
+    
+    .date-card input {
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #d7d7d7;
+        border-radius: 0;
+        padding: 4px;
+        width: 100%;
+    }
+    
+    .bill-address {
+        margin-top: 15px;
+    }
+    
+    .logo-card {
+        width: 60px;
+        display: inline-block;
+        vertical-align: middle;
+        border: 1px solid #f1f1f1;
+        padding: 4px;
+    }
+    
+    .master__card {
+        padding: 10px 0;
+    }
+    
+    .logo-card img {
+        display: block;
+        width: 100%;
+    }
+    
+    .master__card p {
+        margin-right: 10px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .card-holder {
+        margin-top: 15px;
+    }
+    
+    .location-card,
+    .text-bill-card {
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .buttom-next {
+        display: inline-block;
+        margin-top: 50px;
+        width: 100%;
+        padding: 0 15px;
+    }
+    
+    .text-bill-card {
+        width: 100%;
+    }
+    
+    .buttom-next {
+        display: inline-block;
+        margin-top: 50px;
+        width: 100%;
+        padding: 0 15px;
+    }
+    
+    .back-button,
+    .next-button {
+        text-decoration: none;
+        border: none;
+        outline: none;
+        float: left;
+        color: #c53929;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    .next-button {
+        text-decoration: none;
+        float: right;
+        color: #23527c;
+    }
+    
+    .button-card {
+        display: inline-block;
+        margin-top: 50px;
+        width: 100%;
+    }
+    
+    .next-button:hover {
+        text-decoration: none;
+        color: #23527c;
+    }
+    
+    .back-button:hover {
+        color: #c53929;
+        text-decoration: none;
+    }
+    
+    .bill-address .form-control {
+        background: none;
+        outline: none;
+        border: none;
+        border-radius: 0;
+        border-bottom: 1px solid #ccc;
+        box-shadow: none;
+    }
+    
+    .onclick-bill {
+        vertical-align: top;
+        width: 95%;
+    }
+    
+    .bill-address .form-control:focus {
+        border-bottom: 1px solid #c53929;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    
+    .bill-address .bfh-selectbox .bfh-selectbox-options {
+        width: 100%;
+    }
+    
+    .address-line1 {
+        margin-top: 15px;
+    }
+    
+    .address-line1 input {
+        height: auto;
+        margin: 0;
+    }
+    
+     ::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .times-card:focus {
+        outline: none;
+    }
+    
+    .bill-address .bfh-selectbox .bfh-selectbox-toggle {
+        padding: 0 24px 0 0px;
+    }
+    /* tabs */
+    
+    .tabs {
+        font-size: 15px;
+        padding: 0px;
+        list-style: none;
+        background: #fff;
+        display: inline-block;
+        border-radius: 50px;
+        position: relative;
+    }
+    
+    .tabs a {
+        text-decoration: none;
+        color: #314361;
+        font-size: 13px;
+        padding: 5px 20px;
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        transition-duration: 0.6s;
+    }
+    
+    .tabs a.active {
+        color: #fff;
+    }
+    
+    .tabs a i {
+        margin-right: 5px;
+    }
+    
+    .tabs .selector {
+        height: 100%;
+        display: inline-block;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 1;
+        border-radius: 50px;
+        transition-duration: 0.6s;
+        transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        background: #f47207;
+        background: #f47207;
+        background: #f47207;
+        background: #f47207;
+    }
+    /* buy more service */
+    
+    .buy-more {
+        width: 60%;
+    }
+    
+    .buy-more .qty-master {
+        border: none;
+    }
+    
+    .serch-buy label {
+        width: 100%;
+        border-bottom: 1px solid #d7d7d7;
+    }
+    
+    .serch-buy input {
+        border: none;
+        width: 95%;
+    }
+    
+    #myUL1 li {
+        cursor: pointer;
+        padding: 10px 10px;
+        transition: all .5s;
+    }
+    
+    #myUL1 li {
+        border-bottom: 1px solid #dee2e8;
+    }
+    
+    #myUL1 li a {
+        text-decoration: none;
+        color: #314361;
+    }
+    
+    #myUL1 li i {
+        float: right;
+        transition: all .5s;
+    }
+    
+    #myUL1 li a {
+        transition: all .5s;
+    }
+    
+    #myUL1 li:hover,
+    #myUL1 li:focus {
+        background: #e3ecf7;
+    }
+    
+    #myUL1 li:hover a {
+        color: #f47207;
+    }
+    
+    #myUL1 li:hover i {
+        color: #f47207;
+    }
+    
+    #myUL li {
+        display: none;
+        background: #fff;
+        border: 2px solid #f47207;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+    /* pakages */
+    
+    .packages-design {
+        width: 60%;
+    }
+    
+    .packages-design h4 {
+        float: left;
+        font-size: 18px;
+        color: #253858;
+        font-weight: 600;
+    }
+    
+    .container-service {
+        margin-top: 15px;
+        text-align: center;
+    }
+    
+    .as-service {
+        background: #ffffff;
+        display: block;
+        width: 100%;
+        text-decoration: none;
+        padding: 30px;
+        border-radius: 5px;
+        border: 2px solid transparent;
+        box-shadow: -1px 0px 8px 0px rgba(19, 98, 225, 0.18);
+    }
+    
+    .as-service p,
+    .as-service small {
+        margin-top: 15px;
+        font-size: 14px;
+        color: #253858;
+        font-weight: 600;
+        font-family: 'Rubik';
+    }
+    
+    .as-service {
+        padding: 30px;
+    }
+    
+    .merket-number {
+        text-align: center;
+        padding: 5%;
+        color: #fff;
+    }
+    
+    .merket-number {
+        font-size: 30px;
+        display: inline-block;
+        border-radius: 50%;
+        background-image: -moz-linear-gradient( 0deg, rgb(153, 183, 241) 0%, rgb(110, 146, 216) 100%);
+        background-image: -webkit-linear-gradient( 0deg, rgb(153, 183, 241) 0%, rgb(110, 146, 216) 100%);
+        background-image: -ms-linear-gradient( 0deg, rgb(153, 183, 241) 0%, rgb(110, 146, 216) 100%);
+        width: 60px;
+        height: 60px;
+    }
+    
+    .design-pack h3 {
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .design-pack p {
+        float: left;
+        margin: 0;
+    }
+    
+    .design-pack small {
+        float: right;
+        font-size: 16px;
+        font-weight: 600;
+        color: #f47207;
+    }
+    
+    .text-design {
+        padding: 10px;
+        border-top: 1px solid #dee2e8;
+    }
+    
+    .text-design:last-child {
+        border-bottom: 1px solid #dee2e8;
+    }
+    
+    .container-service input[type='radio'] {
+        opacity: 0;
+    }
+    
+    .container-service input:checked+label .as-service {
+        text-decoration: none;
+        border: 2px solid #f47207;
+    }
+    
+    .container-service label {
+        cursor: pointer;
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .back-packages {
+        float: left;
+        color: #253858;
+        font-size: 18px;
+        transition: all .5s ease;
+        margin-left: 5px;
+    }
+    
+    .back-packages:hover {
+        margin-left: 0;
+        color: #f47207;
+    }
+    
+    .pay-now {
+        float: right;
+    }
+    
+    .times-card svg {
+        transition: .5s all ease;
+    }
+    
+    .times-card:hover svg {
+        fill: #f47207;
+    }
+    
+    .pay-now {
+        display: inline-block;
+        color: #fff;
+        background: #f47207;
+        padding: 9px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        transition: all .5s ease;
+    }
+    
+    .pay-now:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .pay-now img {
+        margin-left: 10px;
+        transition: all .5s ease;
+    }
+    
+    .pay-now:hover img {
+        margin-left: 15px;
+    }
+    
+    .pay-now img {
+        width: 20px;
+    }
+    /* .popup5 .top-package {
+        height: 80vh;
+    } */
+    
+    .popup5 .top-package h3 {
+        text-align: center;
+    }
+    /* button pulgin */
+    /* ==========================================================================
+   Helper classes
+   ========================================================================== */
+    /*
+ * Hide visually and from screen readers
+ */
+    
+    .hidden {
+        display: none !important;
+    }
+    /*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+    
+    .visuallyhidden {
+        border: 0;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+        white-space: nowrap;
+        /* 1 */
+    }
+    /*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+    
+    .visuallyhidden.focusable:active,
+    .visuallyhidden.focusable:focus {
+        clip: auto;
+        height: auto;
+        margin: 0;
+        overflow: visible;
+        position: static;
+        width: auto;
+        white-space: inherit;
+    }
+    /*
+ * Hide visually and from screen readers, but maintain layout
+ */
+    
+    .invisible {
+        visibility: hidden;
+    }
+    /*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+    
+    .clearfix:before,
+    .clearfix:after {
+        content: " ";
+        /* 1 */
+        display: table;
+        /* 2 */
+    }
+    
+    .clearfix:after {
+        clear: both;
+    }
+    /* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+    
+    @media only screen and (min-width: 35em) {
+        /* Style adjustments for viewports that meet the condition */
+    }
+    
+    @media print,
+    (-webkit-min-device-pixel-ratio: 1.25),
+    (min-resolution: 1.25dppx),
+    (min-resolution: 120dpi) {
+        /* Style adjustments for high resolution devices */
+    }
+    /* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+    
+    @media print {
+        *,
+        *:before,
+        *:after {
+            background: transparent !important;
+            color: #000 !important;
+            /* Black prints faster */
+            -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+            text-shadow: none !important;
+        }
+        a,
+        a:visited {
+            text-decoration: underline;
+        }
+        a[href]:after {
+            content: " (" attr(href) ")";
+        }
+        abbr[title]:after {
+            content: " (" attr(title) ")";
+        }
+        /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+        a[href^="#"]:after,
+        a[href^="javascript:"]:after {
+            content: "";
+        }
+        pre {
+            white-space: pre-wrap !important;
+        }
+        pre,
+        blockquote {
+            border: 1px solid #999;
+            page-break-inside: avoid;
+        }
+        /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+        thead {
+            display: table-header-group;
+        }
+        tr,
+        img {
+            page-break-inside: avoid;
+        }
+        p,
+        h2,
+        h3 {
+            orphans: 3;
+            widows: 3;
+        }
+        h2,
+        h3 {
+            page-break-after: avoid;
+        }
+    }

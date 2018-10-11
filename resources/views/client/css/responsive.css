@@ -1,0 +1,42 @@
+@media screen and (max-width:768px) {
+    .bottom-main {
+        margin-top: 30px;
+    }
+    .tabs-purches {
+        height: 200vh;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .button-header button {
+        width: 100%;
+    }
+    #table-package2 {
+        margin-top: 20px;
+    }
+    .button-header {
+        margin-bottom: 20px;
+    }
+    .header-table {
+        padding: 0 10px 20px 10px;
+    }
+    .dataTables_wrapper {
+        overflow: scroll;
+    }
+    .button-header button {
+        display: inline-block;
+        width: 48%;
+        border-radius: 25px;
+    }
+    .tabs-top {
+        padding: 0;
+    }
+    #example_filter,
+    #example1_filter {
+        top: 122px;
+        right: 47px;
+    }
+    .table-package table {
+        margin-top: 40px;
+    }
+}

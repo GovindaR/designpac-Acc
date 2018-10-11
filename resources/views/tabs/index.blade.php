@@ -1,0 +1,780 @@
+<!doctype html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+   
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- vendor links -->
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Heebo:300,400,500,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://localhost/myacc/resources/views/tabs/css/normalize.css">
+    <link href="http://localhost/myacc/resources/views/tabs/css/bootstrap-formhelpers.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="http://localhost/myacc/resources/views/tabs/css/demo.css">
+    <link rel="stylesheet" href="http://localhost/myacc/resources/views/tabs/css/main.css">
+    <link rel="stylesheet" href="http://localhost/myacc/resources/views/tabs/css/responsive.css">
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <section class="popup popup5 animated" id="monthService">
+        <div class="container">
+            <div class="row">
+                <form class="popup-content packages-design">
+                    <div class="top-popup" action='_post'>
+                        <div class="qty-item ">
+                            <div class="top-package clearfix">
+                                <h4>Thank You</h4>
+                                <div class="times-card" tabindex="0" role="button" aria-label="Close" data-was-visible="true"><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" data-was-visible="true"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" data-was-visible="true"></path><path d="M0 0h24v24H0z" fill="none" data-was-visible="true"></path></svg></div>
+                            </div>
+                            <div class="jumbotron text-xs-center">
+                                <h1 class="display-3">Thank You!</h1>
+                                <p class="lead"><strong>Please download pdf file</strong> for further details of purchased</p>
+                                <hr>
+                                <p>
+                                    Having trouble? <a href="#">Contact us</a>
+                                </p>
+                                <p class="lead">
+                                    <a class="btn btn-primary btn-sm" href="#" role="button">Continue to homepage</a>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Button container -->
+                        <div class="download-button-container">
+                            <!-- The real button -->
+                            <button class="download-button">
+          <span class="button-text-real hidden">download</span>
+          <!-- Extra elements to perform the animations -->
+          <span class="button-icon">
+              <span class="button-linear-progress">
+                  <span class="button-linear-progress-bar"></span>
+              </span>
+              <svg class="button-icon-svg" viewBox="0 0 60 60">
+                  <path class="button-icon-path button-icon-path-square" d="M 20 40 l 0 -20 l 20 0 l 0 20 Z"></path>
+                  <path class="button-icon-path button-icon-path-line" d="M 40 20 l -20 20"></path>
+              </svg>
+          </span>
+      </button>
+                            <!-- Extra elements to perform the animations -->
+                            <svg class="border-svg" width="240px" height="100px" viewBox="0 0 240 100">
+          <path class="border-path hidden" d="M 40 3.5 a 36.5 36.5 0 0 0 -36.5 36.5 a 36.5 36.5 0 0 0 36.5 36.5 C 70 76.5 90 76.5 120 76.5 S 170 76.5 200 76.5 a 36.5 36.5 0 0 0 36.5 -36.5 a 36.5 36.5 0 0 0 -36.5 -36.5 Z"></path>
+      </svg>
+                            <span class="button-text button-text-download">download</span>
+                            <span class="button-text button-text-done">done!</span>
+                            <div class="button-wave"></div>
+                            <div class="button-progress-container">
+                                <svg class="button-svg">
+              <path class="button-circular-progress" d="M 50 50 m 0 -32.5 a 32.5 32.5 0 0 1 0 65 a 32.5 32.5 0 0 1 0 -65"></path>
+          </svg>
+                                <span class="button-ball"></span>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        </form>
+        </div>
+        </div>
+    </section>
+    <!-- designpay -->
+    <section class="popup popup4 animated" id="monthService">
+        <div class="container">
+            <div class="row">
+                <form class="popup-content packages-design">
+                    <div class="top-popup" action='_post'>
+                        <div class="qty-item ">
+                            <div class="top-package clearfix">
+                                <h4> Choose Design package</h4>
+                                <div class="times-card" tabindex="0" role="button" aria-label="Close" data-was-visible="true"><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" data-was-visible="true"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" data-was-visible="true"></path><path d="M0 0h24v24H0z" fill="none" data-was-visible="true"></path></svg></div>
+                            </div>
+                            <div class="container-service clearfix">
+                            </div>
+                            <div class="button-back clearfix">
+                                <a href="#" class="back-packages"><i class="fas fa-arrow-left"></i></a>
+                                <a href="#" class="pay-now"><span>PayNow</span><img src="http://localhost/myacc/resources/views/tabs/img/pay.svg" alt="pay"></a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        </form>
+        </div>
+        </div>
+    </section>
+    <!-- buy more service -->
+    <section class="popup popup3 animated ">
+        <div class="container">
+            <div class="row">
+                <form class="popup-content buy-more">
+                    <div class="top-popup" action='_post'>
+                        <div class="qty-item clearfix">
+                            <div class="qty-master">
+                                <p class="credit-card">Buy More Service</p>
+                                <div class="times-card" tabindex="0" role="button" aria-label="Close" data-was-visible="true"><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" data-was-visible="true"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" data-was-visible="true"></path><path d="M0 0h24v24H0z" fill="none" data-was-visible="true"></path></svg></div>
+                            </div>
+                            <div class="serch-buy">
+
+                                <label for="myInput"><i class="fas fa-search"></i><input type="search" id="myInput" onkeyup="myFunction()" title="Type in a name" autofocus='off'></label>
+                                <ul id="myUL">
+                                    <li class="clearfix">
+                                        <div class="design-pack">
+                                            <h3>Design As A Service</h3>
+                                            <section class="packages-des">
+
+                                            </section>
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <div class="design-pack">
+                                            <h3>Development As A Service</h3>
+                                            <section class="packages-dev">
+
+                                            </section>
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <div class="design-pack">
+                                            <h3>Marketing As A Service</h3>
+                                            <section class="packages-mar">
+
+                                            </section>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul id="myUL1">
+                                    <li class="clearfix design-btn"><a href="#">Design As A Service</a> <i class="fas fa-angle-right"></i></li>
+                                    <li class="clearfix design-btn1"><a href="#">Development As A Service</a> <i class="fas fa-angle-right"></i></li>
+                                    <li class="clearfix design-btn2"><a href="#">Marketing As A Service</a> <i class="fas fa-angle-right"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                </form>
+                </div>
+            </div>
+    </section>
+
+    <!-- Add payment method -->
+    <section class="popup popup1 animated ">
+        <div class="container">
+            <div class="row">
+                <form class="popup-content">
+                    <div class="top-popup" action='_post'>
+                        <div class="qty-item clearfix">
+
+                            <div class="qty-master">
+                                <p class="credit-card">Add credit card</p>
+                                <div class="times-card" tabindex="0" role="button" aria-label="Close" data-was-visible="true"><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" data-was-visible="true"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" data-was-visible="true"></path><path d="M0 0h24v24H0z" fill="none" data-was-visible="true"></path></svg></div>
+                            </div>
+
+                            <div class="master__card">
+                                <div class="card-number">
+                                    <label for="card-add-payment1">Card number</label>
+                                    <div class="b3-text-input-container">
+                                        <input id="card-add-payment1" type="tel" data-is-secure="true" name="cardnumber" autocomplete="cc-number" aria-describedby="ariaId_9" aria-labelledby="ariaId_10" data-was-visible="true" value="5500 0000 0000 0004" aria-invalid="true" required>
+                                    </div>
+                                </div>
+                                <div class="date-card">
+                                    <div class="month-card">
+                                        <label for="MM">MM</label>
+                                        <input id="MM" type="tel" data-is-secure="true" name="cardnumber" autocomplete="cc-number" aria-describedby="ariaId_9" aria-labelledby="ariaId_10" data-was-visible="true" aria-invalid="true" required>
+                                    </div>
+                                    <span>/</span>
+                                    <div class="month-card ">
+                                        <label for="YY">YY</label>
+                                        <input id="YY" type="tel" data-is-secure="true" name="cardnumber" autocomplete="cc-number" aria-describedby="ariaId_9" aria-labelledby="ariaId_10" data-was-visible="true" aria-invalid="true" required>
+                                    </div>
+                                </div>
+                                <div class="date-card cvc-data">
+                                    <label for="CVC">CVC</label>
+                                    <input id="CVC" type="tel" data-is-secure="true" name="cardnumber" autocomplete="cc-number" aria-describedby="ariaId_9" aria-labelledby="ariaId_10" data-was-visible="true" aria-invalid="true" required>
+                                </div>
+                            </div>
+                            <div class=" card-holder">
+                                <label>
+                                  Cardholder name
+                                </label>
+                                <input type="text" name="itemname" required>
+                            </div>
+                            <div class=" card-holder clearfix">
+
+                                <div class="text-bill-card">
+                                    <div class="billing">
+                                        <label>
+                                        Billing Address
+                                      </label>
+                                        <input type="text" name="itemname" required>
+                                    </div>
+                                    <div class="onclick-bill zoomOut" style="display:none;">
+                                        <div class="bill-address">
+                                            <div class="bfh-selectbox bfh-countries" data-country="US" data-flags="true">
+                                                <input type="hidden" value="">
+                                                <a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#">
+                                                    <span class="bfh-selectbox-option input-medium" data-option=""></span>
+                                                    <b class="caret"></b>
+                                                </a>
+                                                <div class="bfh-selectbox-options">
+                                                    <div role="listbox">
+                                                        <ul role="option">
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="address-line1">
+                                            <label for="add-1">
+                                                Address line 1
+                                              </label>
+                                            <input id="add-1" type="text" name="itemname" required>
+                                        </div>
+                                        <div class="address-line1">
+                                            <label for="add-2">
+                                                Address line 2
+                                              </label>
+                                            <input id="add-2" type="text" name="itemname" required>
+                                        </div>
+                                        <div class="address-line1">
+                                            <label for="CITY">
+                                                City
+                                              </label>
+                                            <input id="CITY" type="text" name="itemname" required>
+                                        </div>
+                                        <div class="address-line1">
+                                            <label for="PCODE">
+                                                Postal code
+                                              </label>
+                                            <input id="PCODE" type="number" name="itemname" required>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="button-card">
+                                <a class="back-button">Remove</a>
+                                <a class="next-button">Save</a>
+                            </div>
+                        </div>
+
+                </form>
+                </div>
+            </div>
+    </section>
+    <!-- payment method edit -->
+    <section class="popup popup2 animated ">
+        <div class="container">
+            <div class="row">
+                <form class="popup-content">
+                    <div class="top-popup" action='_post'>
+                        <div class="qty-item clearfix">
+
+                            <div class="qty-master">
+                                <p class="credit-card">Edit</p>
+                                <div class="times-card" tabindex="0" role="button" aria-label="Close" data-was-visible="true"><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" data-was-visible="true"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" data-was-visible="true"></path><path d="M0 0h24v24H0z" fill="none" data-was-visible="true"></path></svg></div>
+                            </div>
+
+                            <div class="master__card">
+                                <div class="card-number card-edit">
+                                    <label for=""><img src="http://localhost/myacc/resources/views/tabs/img/master__card.png" alt="visa"></label>
+                                    <div class="b3-text-input-container">
+                                        <p>XXXX4042</p>
+                                    </div>
+                                </div>
+                                <div class="date-card">
+                                    <div class="month-card">
+                                        <label for="mm">MM</label>
+                                        <input id="" type="text" data-is-secure="true" name="cardnumber" autocomplete="cc-number" aria-describedby="ariaId_9" aria-labelledby="ariaId_10" data-was-visible="true" aria-invalid="true" required>
+                                    </div>
+                                    <span>/</span>
+                                    <div class="month-card ">
+                                        <label for="yy">YY</label>
+                                        <input id="yy" type="text" data-is-secure="true" name="cardnumber" autocomplete="cc-number" aria-describedby="ariaId_9" aria-labelledby="ariaId_10" data-was-visible="true" aria-invalid="true" required>
+                                    </div>
+                                </div>
+                                <div class="date-card cvc-data">
+                                    <label for="cvc">CVC</label>
+                                    <input id="cvc" type="text" data-is-secure="true" name="cardnumber" autocomplete="cc-number" aria-describedby="ariaId_9" aria-labelledby="ariaId_10" data-was-visible="true" aria-invalid="true" required>
+                                </div>
+                            </div>
+                            <div class=" card-holder">
+                                <label for="card-name">
+                                  Cardholder name
+                                </label>
+                                <input id="card-name" type="text" name="itemname" required>
+                            </div>
+                            <div class=" card-holder clearfix">
+
+                                <div class="text-bill-card">
+                                    <div class="billing">
+                                        <label>
+                                        Billing Address
+                                      </label>
+                                        <input type="text" name="itemname" required>
+                                    </div>
+                                    <div class="onclick-bill zoomOut" style="display:none;">
+                                        <div class="bill-address">
+                                            <div class="bfh-selectbox bfh-countries" data-country="US" data-flags="true">
+                                                <input type="hidden" value="">
+                                                <a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#">
+                                                    <span class="bfh-selectbox-option input-medium" data-option=""></span>
+                                                    <b class="caret"></b>
+                                                </a>
+                                                <div class="bfh-selectbox-options">
+                                                    <div role="listbox">
+                                                        <ul role="option">
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="address-line1">
+                                            <label for="add-line1">
+                                                Address line 1
+                                              </label>
+                                            <input id="add-line1" type="text" name="itemname" required>
+                                        </div>
+                                        <div class="address-line1">
+                                            <label for="add-line2">
+                                                Address line 2
+                                              </label>
+                                            <input id="add-line2" type="text" name="itemname" required>
+                                        </div>
+                                        <div class="address-line1">
+                                            <label for="city1">
+                                                City
+                                              </label>
+                                            <input id="city1" type="text" name="itemname" required>
+                                        </div>
+                                        <div class="address-line1">
+                                            <label for="post-code">
+                                                Postal code
+                                              </label>
+                                            <input id="post-code" type="number" name="itemname" required>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="button-card">
+                                <a class="back-button">Remove</a>
+                                <a class="next-button">Save</a>
+                            </div>
+                        </div>
+
+                </form>
+                </div>
+            </div>
+    </section>
+    <secttion class="tabs-purches">
+        <div class="container">
+            <div class="row">
+                <a href="https://www.designpac.net/"><img src="http://localhost/myacc/resources/views/tabs/img/designpac.png" alt="designpac"></a>
+                <div class="col-sm-12 tabs-top">
+                    <div class="col-md-4 top-main">
+                        <div class="tab-menu">
+                            <div class="tab-menu-top">
+                                <ul>
+                                    <li class="clearfix">
+                                        <p>Purchased service</p>
+                                        <span><?php $id = Auth::user()->id; $count = DB::table('transaction')->where('user_id',$id)->count(); echo $count;?></span>
+                                    </li>
+                                    <li class="clearfix">
+                                        <p>Amount spent</p>
+                                        <span>
+                                            <?php
+                                            $id = Auth::user()->id;
+                                            $sum = DB::table('transaction')->where('user_id', $id)->sum('amount') ;
+
+                                            //DB::table('transaction')->select(DB::raw("SUM(amount)"))->where('user_id', $id)->get();
+                                             //dd ($sum);
+                                            
+                                             echo $sum;
+                                            ?>
+                                        </span>
+                                    </li>
+                                </ul>
+                                <a href="#" class="buy-button"><span>Buy More Services</span><i class="fas fa-minus"></i></a>
+                            </div>
+                        </div>
+                        <div class="tab-menu-bottom">
+                            <p>Payment methods</p>
+                            <ul>
+                                <li class="clearfix">
+                                    <div class="visa-img">
+                                        <a href="#" class="visa-img"><img src="http://localhost/myacc/resources/views/tabs/img/Visa_Logo.png" alt="Visa_Logo"></a>
+                                    </div>
+                                    <div class="text-visa">
+                                        <p>{{\Illuminate\Support\Facades\Auth::user()->card_brand}} XXXX- {{\Illuminate\Support\Facades\Auth::user()->card_last_four}}</p>
+                                        <span>Express 02/21</span>
+                                    </div>
+                                    <a href="#" class="edit-visa"><img src="http://localhost/myacc/resources/views/tabs/img/lapiz.svg" alt="edit"></a>
+                                </li>
+                            </ul>
+                            <a href="#" class="add-payment order-item"><i class="fas fa-plus"></i><span>Add payment method</span></a>
+                        </div>
+                    </div>
+                    <div class="col-md-8 bottom-main">
+                        <div class="tab-table">
+                            <div class="header-table">
+                                <!-- <div class="button-header">
+                                    <button id="passive-package" class="active-package">Payment History</button>
+                                    <button id="active-package">Active Package</button>
+                                </div> -->
+
+                                <nav class="tabs">
+                                    <div class="selector"></div>
+                                    <a href="#" id="passive-package" class="active active-package">Payment History</a>
+                                    <a href="#" id="active-package">Active Services</a>
+                                </nav>
+                            </div>
+                                
+                                                                       
+                            <div class="table-package" id="table-package1">
+                                <table id="example">
+                                     <table class="uk-table uk-table-divider">
+                                         <thead>
+                                        <tr>
+                                            <th>Details</th>
+                                            <th>Amount</th>
+                                            <th>Quantity</th>
+                                            <th>Txn id</th>
+                                            <th>User ID</th>
+                                            <th>Date</th>
+                                        </tr>
+                                    </thead>
+
+                                        <tbody>
+                                            @foreach ($data as $d) 
+                                            <tr>
+                                                <td>{{ $d->detail }}</td>
+                                                <td>{{ $d->amount }}</td>
+                                                <td>{{ $d->qty }}</td>
+                                                <td>{{ $d->txn_id }}</td>
+                                                <td>{{ $d->user_id }}</td>
+                                                <td>{{ $d->created_at }}</td>
+                                                
+                                            </tr>
+                                            @endforeach
+                                            
+                                            
+                                        </tbody>
+                                    </table>
+                                   
+                                   <!--  <tbody>
+                                        <tr>
+                                            <td>Design as a service</td>
+                                            <td>$900</td>
+                                            <td>2018925</td>
+                                            <td>2018/9/25</td>
+                                            <td>
+                                                <a href="#" class="dwonload-design"><img src="img/descargar.svg" alt="download"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Design as a service</td>
+                                            <td>$900</td>
+                                            <td>2018925</td>
+                                            <td>2018/9/25</td>
+                                            <td>
+                                                <a href="#" class="dwonload-design"><img src="img/descargar.svg" alt="download"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Design as a service</td>
+                                            <td>$900</td>
+                                            <td>2018925</td>
+                                            <td>2018/9/25</td>
+                                            <td>
+                                                <a href="#" class="dwonload-design"><img src="img/descargar.svg" alt="download"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Design as a service</td>
+                                            <td>$900</td>
+                                            <td>2018925</td>
+                                            <td>2018/9/25</td>
+                                            <td>
+                                                <a href="#" class="dwonload-design"><img src="img/descargar.svg" alt="download"></a>
+                                            </td>
+                                        </tr>
+                                    </tbody> -->
+                                </table>
+                            </div>
+                            <div class="table-package" id="table-package2">
+                                <table id="example1">
+                                    <thead>
+                                        <tr>
+                                            <th>Items</th>
+                                            <th>Amount</th>
+                                            <th>date</th>
+                                            <th>status</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Design Hourly</td>
+                                            <td>$900</td>
+                                            <td>2018/9/25</td>
+                                            <td>-</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Frontend Development Monthly Plan</td>
+                                            <td>$900</td>
+                                            <td>2018/9/25</td>
+                                            <td><span class="days-left">28 days left</span></td>
+                                            <td>
+                                                <a class="cancel-btn"><img src="http://localhost/myacc/resources/views/tabs/img/error.svg" alt="cancel"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Design as a service</td>
+                                            <td>$900</td>
+                                            <td>2018/9/25</td>
+                                            <td><span class="inactive">Inactive</span></td>
+                                            <td>
+                                                <a class="cancel-btn"><img src="http://localhost/myacc/resources/views/tabs/img/error.svg" alt="cancel"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Design as a service</td>
+                                            <td>$900</td>
+                                            <td>2018/9/25</td>
+                                            <td><span class="cancel">Cancel</span></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Design as a service</td>
+                                            <td>$900</td>
+                                            <td>2018/9/25</td>
+                                            <td><span class="refund">Refunded</span></td>
+                                            <td>
+                                                <a class="cancel-btn"><img src="http://localhost/myacc/resources/views/tabs/img/error.svg" alt="cancel"></a>
+                                            </td>
+                                        </tr>
+                                        <tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </secttion>
+    <script src="http://localhost/myacc/resources/views/tabs/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="http://localhost/myacc/resources/views/tabs/js/vendor/jquery-3.3.1.min.js"><\/script>')
+    </script>
+    <script src="js/plugins.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src='http://localhost/myacc/resources/views/tabs/js/anime.min.js'></script>
+    <script src='http://localhost/myacc/resources/views/tabs/js/segment.min.js'></script>
+    <script src='http://localhost/myacc/resources/views/tabs/js/demo.js'></script>
+    <script src="http://localhost/myacc/resources/views/tabs/js/main.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('#example').DataTable();
+
+        });
+        $(document).ready(function() {
+            $('#example1').DataTable();
+
+            $('.dataTables_wrapper').find('#example1_filter label').prepend('<i class="fas fa-search"></i>');
+            $('.dataTables_wrapper').find('#example_filter label').prepend('<i class="fas fa-search"></i>');
+        });
+    </script>
+
+    <script src="http://localhost/myacc/resources/views/tabs/js/bootstrap-formhelpers.min.js"></script>
+    <script>
+        function getVal() {
+            // This will get the value of #timepicker
+            alert($("#timepicker").val())
+        }
+    </script>
+    <script>
+        var nData = {};
+        $.getJSON("package.json", function(nData) {
+            var html = '';
+            for (var i = 0; i < nData.Design.length; i++) {
+                html += '<div class="text-design clearfix">\
+                              <a href="#">\
+                                    <p>' + nData.Design[i].name + '</p>\
+                                    <small>$' + parseFloat(nData.Design[i].amount / 100).toFixed(2) + '</small>\
+                                    </a>\
+                                </div>';
+            }
+            $('#myUL li .packages-des').html(html);
+        });
+    </script>
+    <script>
+        var nData = {};
+        $.getJSON("package.json", function(nData) {
+            var html = '';
+            for (var i = 0; i < nData.Marketing.length; i++) {
+                html += '<div class="text-design clearfix">\
+                              <a href="#">\
+                                    <p>' + nData.Marketing[i].name + '</p>\
+                                    <small>$' + parseFloat(nData.Marketing[i].amount / 100).toFixed(2) + '</small>\
+                                    </a>\
+                                </div>';
+            }
+            $('#myUL li .packages-mar').html(html);
+
+        });
+    </script>
+    <script>
+        var nData = {};
+        $.getJSON("hour.json", function(nData) {
+            var html = '';
+            for (var i = 0; i < nData.length; i++) {
+                html += '<div class="text-design clearfix">\
+                              <a href="#">\
+                                    <p>' + nData[i].name + '</p>\
+                                    <small>$' + parseFloat(nData[i].amount / 100).toFixed(2) + '</small>\
+                                    </a>\
+                                </div>';
+            }
+            $('#myUL li .packages-dev').html(html);
+        });
+    </script>
+    <script type="text/javascript">
+    </script>
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function() {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('send', 'pageview')
+    </script>
+    <script>
+
+    function autoSave()
+
+    {
+
+        url="http://localhost/myacc/notification-test";
+
+        $.ajax({
+
+            url:url,
+
+            method:"Get",
+
+            dataType:"text",
+
+            success:function(data)
+
+            {
+
+                 console.log(data);
+
+                if(data == 1){
+
+                    $('#notification-change').addClass("notification-change");
+
+                }else{
+
+                    $('#notification-change').removeClass("notification-change");
+
+                }
+
+
+
+            }
+
+        });
+
+
+
+
+
+    }
+
+    setInterval(function(){
+
+        autoSave();
+
+    }, 1000);
+
+
+
+
+
+    function myNotification() {
+
+        url="http://localhost/myacc/client-other-notification";
+
+        $.ajax({
+
+            url:url,
+
+            method:"Get",
+
+            dataType:"text",
+
+            success:function(data)
+
+            {
+
+                $('#notifications').html(data);
+
+            }
+
+        });
+
+
+
+    }
+
+    function myActivity() {
+
+        url="http://localhost/myacc/client-activity";
+
+        $.ajax({
+
+            url:url,
+
+            method:"Get",
+
+            dataType:"text",
+
+            success:function(data)
+
+            {
+
+                $('#activities').html(data);
+
+            }
+
+        });
+
+
+
+    }
+
+</script>
+
+</body>
+
+</html>

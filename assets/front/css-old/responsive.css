@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (min-width : 1201px) and (max-width:1400px) {
+#wrapper 									{margin: 0 auto; width:100% !important;} 
+.small-nav									{display:none;}
+.link-box-text 								{bottom: -8% !important; right: -100% !important;}
+.text-skrollable 							{bottom: 5%; left: -35% !important;}
+
+.search-home								{display:block; float:left; width:100% !important; padding:0px 50px 0px 0px !important;}
+}
+
+
+
+
+@media screen and (min-width : 992px) and (max-width:1200px) {
+#wrapper 									{margin: 0 auto; width:100% !important;} 
+.small-nav									{display:none;}
+.work-type									{width:80%;}
+.link-box-1 img 							{width: 100%;}
+.text-skrollable 							{bottom: 1%; left: -35% !important;}
+.text-skrollable p							{padding-bottom:5px !important;}
+.text-skrollable p strong 					{font-size:32px !important; font-weight: bold !important; line-height: 44px !important;}
+.work-list a.type-1 span 					{padding: 16px 0px !important;}
+.about-design p 							{padding-right: 40px !important;}
+.link-box-2 img								{width:100% !important;}
+.link-box-text 								{bottom: -35% !important; right: -100% !important;}
+.details ul li								{padding-right:0px !important;}
+.recent-post ul li 							{width: 100%;}
+
+
+li.last-list 								{margin-right:25px !important; width: 22% !important;}
+.complete-projects p 						{width: 33% !important;}
+
+.scroll-bottom 								{left: 44%;bottom: 10%;}
+}
+
+
+@media screen and (min-width : 768px) and (max-width:991px) {
+#wrapper 									{margin: 0 auto; width:100% !important;} 
+.small-nav									{display:none;}
+.section-main 								{padding:50px !important;}
+.work-type									{width:100%;}
+.link-box-1 img 							{width: 50%;}
+.text-skrollable 							{bottom: 10%; left: 13% !important;}
+.text-skrollable p							{padding-bottom:5px !important;}
+.text-skrollable p strong 					{font-size:32px !important; font-weight: bold !important; line-height: 44px !important;}
+.work-list a.type-1 span 					{padding: 16px 0px !important;}
+.about-design p 							{padding-right: 40px !important;}
+.link-box-2 img								{width:auto !important;}
+.link-box-text 								{margin-top: 30px; position: static !important;}
+.work-list 									{margin-bottom: 25px;}
+.complete-projects 							{margin-bottom: 40px;}
+.copyright-main								{margin-bottom: 30px;}
+
+.details ul li								{padding-right:0px !important;}
+.recent-post ul li 							{width: 100%;}
+.about-us-content							{padding-right:0px !important;}
+.about-us-content-right 					{padding-left: 0px !important; margin-top: 50px;}
+.send-request 								{margin-top: 30px !important; text-align: center !important;}
+
+
+.about-us-main p							{padding:0px 0px !important;}
+.first-section								{margin-bottom:20px !important; padding-left:0px !important;}
+.specialized 								{padding: 50px 0px !important;}
+.up-coming-events 							{margin-bottom: 30px;}
+
+.jobboard-home								{padding:50px 30px !important;}
+li.last-list 								{margin-right:0px !important; width: 100% !important;}
+
+.job-details 								{padding-left:0px !important;}
+.job-details-description					{padding-left:0px !important;}
+}
+
+
+@media screen and (min-width : 480px) and (max-width:767px) {
+#wrapper 									{margin: 0 auto; width:100% !important;} 
+.sticky										{display:none !important;}
+.small-nav									{display:block;}
+.right-col									{padding-left:0px !important;}
+.section-home img 							{width: 100% !important;}
+.section-home .i-specialist-logo 			{left: 39% !important;}
+.scroll-bottom 								{right: 50%;}
+.social-media-main 							{right: 10% !important; top: 7% !important;}
+.section-main 								{padding: 50px 0 !important;width: 100% !important;}
+.work-type 									{width: 100%; padding:20px 50px;}
+.work-type ul li 							{padding-bottom: 30px;}
+.up-coming-events 							{text-align: center;}
+.link-box-1									{padding:0px 20px !important;}
+.link-box-1 a img							{width:80% !important;}
+.text-skrollable 							{bottom: 10%; left: 13% !important;}
+.text-skrollable p							{padding-bottom:5px !important;}
+.text-skrollable p strong 					{font-size:32px !important; font-weight: bold !important; line-height: 44px !important;}
+
+.link-box-2 								{padding: 0px; margin-top:80px !important;}
+.link-box-2 img  							{width: 100% !important;}
+.link-box-text a							{width:430px !important;}
+
+.section-white								{padding:50px !important;}
+.work-list a.type-1 span 					{padding: 16px 0px !important;}
+.about-design p 							{text-align: left; width:100%;margin-bottom: 20px !important; padding-right:0px !important;}
+.link-box-2 img								{width:100% !important;}
+.link-box-text 								{margin-top: 30px; margin-left:25px !important; position: static !important;}
+.work-list 									{margin-bottom: 35px;}
+.complete-projects 							{margin-bottom: 40px;}
+.copyright-main 							{margin-bottom: 30px; display: block; float: left;}
+.footer										{padding:50px !important;}
+
+.details ul li								{padding-right:0px !important;}
+.recent-post ul li 							{width: 100%;}
+.about-us-content							{padding-right:0px !important;}
+.about-us-content-right {padding-left: 0px !important; margin-top: 50px;}
+.section-black-contact, .section			{padding:50px !important;}
+.up-coming-events 							{padding-left: 70px !important;}
+.send-request 								{margin-top: 30px !important; text-align: center !important;}
+
+.about-us-main								{padding:0px 50px !important;}
+.about-us-main p							{padding:0px 0px !important;}
+.first-section								{margin-bottom:20px !important; padding-left:0px !important;}
+.specialized 								{padding: 50px !important;}
+.up-coming-events 							{margin-bottom: 30px;}
+
+.jobboard-home								{padding:30px !important;}
+
+li.last-list, .form-group					{margin-right:0px !important; width: 100% !important;}
+.work-list									{padding-right:0px !important;}
+.job-search-home form 						{padding: 30px 20px !important;}
+.buttons									{width:100% !important;}
+.section-home								{padding-top: 0px !important;}
+.jobboard-home								{margin-top:40px;}
+
+.work-type ul li 							{padding-right: 25px !important;}
+
+.section-home								{height:100% !important;}
+
+
+.job-details 								{padding-left:0px !important;}
+.vacancy-details-left 						{width: 100% !important; display:block; float:left; margin-bottom:10px !important;}
+.vacancy-details-right 						{width: 100% !important;}
+.vacancy-details-right ul li				{width: auto !important; display:inline; padding-right:20px !important;display:block; float:left;}
+
+.contact									{padding:70px 50px !important;}
+.job-details-description					{padding-left:0px !important;}
+}
+
+
+@media screen and (min-width : 320px) and (max-width:479px) {
+#wrapper 									{margin: 0 auto; width:100% !important;} 
+.sticky										{display:none !important;}
+.right-col									{padding-left:0px !important;}
+.section-home img 							{width: 100% !important;}
+.section-home .i-specialist-logo 			{left: 39% !important;}
+.scroll-bottom 								{right: 50%;}
+.social-media-main 							{right: 10% !important; top: 7% !important;}
+.section-main 								{padding: 50px 0 !important;width: 100% !important;}
+.work-type 									{width: 100%; padding:20px 50px;}
+.work-type ul li 							{padding-bottom: 30px; width:100% !important;}
+.up-coming-events 							{float: left; margin-left: 35px;}
+.link-box-1									{padding:0px !important;}
+.link-box-1 img								{width: 100%;}
+.text-skrollable 							{bottom: 10%; left: 13% !important;}
+.text-skrollable p							{padding-bottom:5px !important;}
+.text-skrollable p strong 					{font-size:32px !important; font-weight: bold !important; line-height: 44px !important;}
+
+.link-box-2 								{padding:0px; margin-top:80px !important;}
+.link-box-2 a img 							{width:100% !important;}
+.link-box-text a 							{border: 3px solid #000; display: block; padding: 17px 10px !important; position: relative; width: 300px !important; margin-left: 10px;}
+.link-box-text h2 							{right: -34% !important;}
+
+.section-white,.footer,.section-black		{padding:50px 40px !important;}
+.work-list a.type-1 span 					{padding: 16px 0px !important;}
+.about-design p 							{text-align: left;width:100%;margin-bottom: 20px !important; padding-right:0px !important;}
+.link-box-2 img								{width:100% !important;}
+.link-box-text 								{margin-top: 30px; position: static !important;}
+.work-list 									{margin-bottom: 35px;}
+.complete-projects 							{margin-bottom: 40px;}
+.copyright-main 							{margin-bottom: 30px; display: block; float: left;}
+.fuller										{display:block; float:left; width:100% !important;}
+
+.about-us									{padding:40px !important;}
+.details ul li								{padding-right:0px !important;}
+.recent-post ul li 							{width: 100%;}
+.about-us-content							{padding-right:0px !important;}
+.about-us-content-right {padding-left: 0px !important; margin-top: 50px;}
+
+.footer										{padding:50px !important;}
+.section-black-contact, .section			{padding:50px !important;}
+.send-request 								{margin-top: 30px !important; text-align: center !important;}
+
+.about-us-main								{padding:0px 50px !important;}
+.about-us-main p							{padding:0px 0px !important;}
+.first-section								{margin-bottom:20px !important; padding-left:0px !important;}
+.specialized 								{padding: 50px !important;}
+.up-coming-events 							{margin-bottom: 30px;}
+
+
+
+.jobboard-home								{padding:20px !important;}
+.resp-vtabs .resp-tabs-container			{border:0 !important; background:none !important;}
+h2.resp-accordion							{padding:0px 15px !important;}
+.resp-arrow									{margin-top:15px !important;}
+.fa.fa-plus-square 							{padding-right: 10px;}
+.resp-tab-active 							{border-width: 1px !important;  background: #fafafa !important; border-left:1px solid #C1C1C1 !important; border-right:1px solid #C1C1C1 !important; border-top:0px !important;}
+.main-job-item.resp-tab-content.ver_1.resp-tab-content-active { background: #fafafa !important; display: block;float: left; width: 100%; border-top:none;}
+li.last-list, .form-group					{margin-right:0px !important; width: 100% !important;}
+.work-list									{padding-right:0px !important;}
+.job-search-home form 						{padding: 30px 20px !important;}
+.buttons									{width:100% !important;}
+.section-home 								{padding-top: 0px !important;}
+.jobboard-home								{margin-top:40px;}
+.section-home								{height:100% !important;}
+
+
+.job-details 								{padding-left:0px !important;}
+.vacancy-main-details						{padding:40px 20px !important;}
+.vacancy-wrapper 							{background:none !important; padding:0px !important;}
+.vacancy-details-left 						{width: 100% !important; display:block; float:left; margin-bottom:10px !important;}
+.vacancy-details-left ul li span			{width:100% !important;}
+.vacancy-details-left ul li p				{width:100% !important;}
+.vacancy-details-right 						{width: 100% !important; text-align:left !important;}
+.vacancy-details-right ul li				{width: 100% !important; display:inline; padding-right:20px !important;display:block; float:left;}
+.contact									{padding:70px 50px !important;}
+
+.job-details-description					{padding-left:0px !important;}
+}
+
